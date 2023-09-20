@@ -14,8 +14,11 @@ containers:
     image: # Set by pipeline
     variables:
       Hello: World
-
+      CoolVar: haha
+      DB_HOST: ${resources.db.host}
 resources:
+  db:
+    type: mysql
   dns: # We need a DNS record to point to the service 
     type: dns
   route:
