@@ -14,7 +14,7 @@ containers:
     image: # Set by pipeline
     variables:
       Hello: World
-      CoolVar: haha
+      CoolVar: Awesome demo!!
       DB_HOST: ${resources.db.host}
 resources:
   db:
