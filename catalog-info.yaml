@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "jeho-demo-app"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-24"
+    "humanitec.com/appId": "jeho-demo-app"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
